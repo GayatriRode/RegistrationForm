@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;    
+}
+
+.wrapper{
+  padding: 4%;
+}
+
+.stepper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px; 
+}
+
+.step span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #007bff; 
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.step p {
+  margin: 0;
+}
+
+.step.active span {
+  background-color: #28a745; 
+}
+
+.step.completed span {
+  background-color: #28a745;
+}
+
+.form1{
+  position: relative;
+  padding: 15px;
+  box-shadow: 5px 5px 5px 5px #6CA0DC;
+  width: 50%;
+  left: 25%;
+}
+
+.btns{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-content: center;
+}
+
+.academic{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+}
+
+#preview-content{
+  padding: 4%;
+  background-color: white;
+}
+
+.container1{
+  background-image: url('https://images.pexels.com/photos/1809644/pexels-photo-1809644.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.form1{
+  color: white;
+}
